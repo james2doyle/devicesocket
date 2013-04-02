@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  span(id="logger")
+  h1= title
+  p Welcome to #{title}
+  label Is Controller:&nbsp;
+    input(type="checkbox", name="is_client", value="1", id="is_client")
+  #box
